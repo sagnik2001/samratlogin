@@ -1,0 +1,110 @@
+#login-page {
+  background-image: linear-gradient(#C5CBE3, #4056A1);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(50vh - 334px);
+  left: calc(50vw - 210px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  background-color: #EFE2BA;
+  border-radius: 22px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin: 5px;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+   margin: 5px;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
+.input{
+
+   width: 60%;
+   border: none;
+   outline: none;
+   font-size: 19px;
+   padding: 10px;
+   background: #7395AE;
+   color: #2E151B;
+   letter-spacing: 1px;
+
+}
+.label{
+
+    color: black;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+
+}
+ .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+
+}
+
+.btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: brown;
+}
+ .btnContainer p span {
+  color:#2E151B ;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+.btnContainer p span:hover {
+  color: red;
+}
+.button {
+  cursor: pointer;
+  color: #2E151B;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 50%;
+  font-size: medium;
+  background-color: lavender;
+}
